@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>超级管理员</title>   
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--清除默认样式-->
+        <link href="css/CM_style_Head.css" rel="stylesheet">
+        <!--中医css文件-->
+        <link href="css/CM_style_Head.css" rel="stylesheet"> 
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <!--layer-->
+        <script src="layer/layer.js"></script>
+       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="Admin_Index">
+            <header>
+                <h1><i class="icon-admin"></i>Ace Admin</h1>
+                <div class="User pull-right">
+                    <span><i>Welcome,<br />Jason</i></span>
+                    <div class="dropdown">
+                        <p data-toggle="dropdown" class="dropdown-toggle"><i class="caret"></i></p>
+                        <ul class="dropdown-menu pull-right">
+                            <li><i class="glyphicon glyphicon-cog"></i><a href="javascript:;">设置</a></li>
+                            <li><i class="glyphicon glyphicon-user"></i><a href="javascript:;">简介</a></li>
+                            <li class="divider"></li>
+                            <li><i class="glyphicon glyphicon-off"></i><a href="javascript:;">退出</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </header>
+            <div class="All_MenuBox">
+                <div class="All_Menu"><span class="glyphicon glyphicon-map-marker"></span><i>全部菜单</i></div>
+                <ol class="breadcrumb">
+                    <li><i class="glyphicon glyphicon-th"></i><a href="#">全部菜单</a></li>
+                    <li><a href="#">系统设置</a></li>
+                    <li class="active">角色管理</li>
+                </ol>
+            </div>
+            
+
+            <!--菜单-->
+            <ul class="ce">
+                <li>
+                    <a><i class="glyphicon glyphicon-cog"></i> <span>系统设置</span> <img class="more" src="images/arrow.png" /></a>
+                    <ul class="er">
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>类别管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>角色管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>流程资料管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>会员管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>流程管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>系统登录统计</span> </a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class="glyphicon glyphicon-folder-open"></i> <span>文件管理</span> <img class="more" src="images/arrow.png" /></a>
+                    <ul class="er">
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>类别管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>角色管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>流程资料管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>会员管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>流程管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>系统登录统计</span> </a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class="glyphicon glyphicon-list-alt"></i> <span>公共信息管理</span> <img class="more" src="images/arrow.png" /></a>
+                    <ul class="er">
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>类别管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>角色管理</span> </a> </li>
+                        <li><a><i class="glyphicon glyphicon-stats"></i> <span>流程资料管理</span> </a> </li>
+                    </ul>
+                </li>
+                <li class="clear"></li>
+            </ul>
+
+            <div class="content">
+                <div class="SearchBox">
+                    <span>功能名称</span>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="功能名称">
+                    </div>
+                    <button type="submit" class="btn btn-info"><i class="glyphicon glyphicon-search"></i>搜索</button>
+                    <button type="submit" class="btn btn-info"><i class="glyphicon glyphicon-plus-sign"></i>添加</button>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th><span class="glyphicon glyphicon-sort-by-order-alt"></span><i>序号</i></th>
+                                <th><span class="glyphicon glyphicon-hand-right"></span><i>功能名</i></th>
+                                <th><span class="glyphicon glyphicon-globe"></span><i>链接地址</i></th>
+                                <th><span class="glyphicon glyphicon-tasks"></span><i>功能介绍</i></th>
+                                <th><span class="glyphicon glyphicon-wrench"></span><i>操作</i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>药房管理</td>
+                                <td>http://www.imooc.com/code/2305</td>
+                                <td>查看</td>
+                                <td><i class="glyphicon glyphicon-edit"></i><i class="glyphicon glyphicon-trash"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="paginationBox">
+                    <ul class="pagination">
+                        <li><a href="#">&laquo; 上一页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li class="active"><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li class="disabled"><a href="#">下一页 &raquo;</a></li>
+                    </ul>
+                    <div class="NumBox">
+                        跳转到第<input type="text" value="2" />页
+                        <input class="btn btn-info" type="submit" value="GO" />
+                    </div>
+                    <span class="pull-right">显示1-10条记录，共33条记录，共4页</span>
+                </div>
+            </div>
+
+        </div>
+        
+        
+        
+    </body>
+</html>

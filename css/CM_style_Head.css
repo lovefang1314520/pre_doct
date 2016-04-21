@@ -1,0 +1,308 @@
+hongbao_list2/* --------reset-------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,button,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}input,select,textarea,button{font-size:100%;}fieldset,img,abbr,acronym{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6,legend{font-size:100%;font-weight:400;}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+section,article,aside,header,footer,nav,dialog,figure{display:block;}
+/* --------base-------- */
+body{font:12px/1.5 "华文细黑","microsoft yahei",Verdana,Arial,Helvetica,sans-serif;background:#fff;color:#454545; margin: 0;}h1{font-size:18px;}h2{font-size:16px;}h3{font-size:14px;}h1,h2,h3,h4,h5,h6,strong,caption,th{font-weight:700;}abbr,acronym{border-bottom:1px dotted #aaa;cursor:help;}em{font-style:italic;}
+
+/* --------global-------- */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}.clearfix{display:inline-block;}/* Hides from IE-mac \*/* html .clearfix{height:1%;}.clearfix{display:block;}/* End hide from IE-mac */.red{color:#FF4401; font-family: Arial, Helvetica, sans-serif}.yellow{color:#fc7c26;}.white{color:#FFF;}.blue{color:#00F;}.blue1{color:#0a4e9e}.black{color:#000;}.green{color:#008000;}.brown{color:#A52A2A;}.gray{color:#CCC;}.fl{float:left;}.fr{float:right;}.bd{border:1px solid #dedede}
+
+/* current */
+ a:visited ,a:hover, a:active { outline: 0; }
+a { color: #333; text-decoration: none;cursor:pointer;  }
+a:hover{text-decoration:none;}
+i { font-style: normal; }
+img { max-width: 100%; }
+.fs10 { font-size: 10px; }
+.fs12 { font-size: 12px; }
+.fs13 { font-size: 13px; }
+.fs14 { font-size: 14px; }
+.fs15 { font-size: 15px; }
+.fs16 { font-size: 16px; }
+.fs24 { font-size: 24px; }
+.fs30 { font-size: 30px; }
+.lineThrough { text-decoration: line-through; }
+.underLine { text-decoration: underline; }
+
+.Admin_Index{min-width:1024px;}
+.Admin_Index header {width:100%;background-color:#11a3e7;color:#fff;border:1px solid #11a3e7;height:60px;padding:0 20px;}
+.Admin_Index header h1 .icon-admin {display:inline-block;width:20px;height:20px;background:url(../images/icon-admin.png) no-repeat;background-size:cover;margin-right:5px;vertical-align:top;}
+.Admin_Index header h1 {display:inline-block;margin-top:20px;}
+.Admin_Index header  .User span{background:url(../images/photo.png) no-repeat;height:50px;display:inline-block;background-size:50px;margin-top:5px;}
+.Admin_Index header  .User span i{margin-left:60px;display:block;padding-top:6px;}
+.Admin_Index header  .User .dropdown{display:inline-block;vertical-align:top;margin-top:20px;}
+.Admin_Index header  .User .dropdown-menu{top:40px;}
+.Admin_Index header  .User .dropdown-menu li i{color:#454545;margin:0 10px;font-size:14px;margin-right:3px;}
+.Admin_Index header  .User .dropdown-menu li a{display:inline-block;padding:0;vertical-align:bottom;}
+.clear{clear:both;}
+.ce{display:block;width:170px;background:#fff;position:absolute;z-index:5;top:100px;left:60px;height:100%;border-right:1px solid #abd3e3;padding-right:1px;}
+.ce .more{margin-right: 12px;display:inline-block;width:6px;float:right;margin-top:7px;}
+.li_active{border-bottom:1px solid #abd3e3;}
+.ce li a{padding: 10px 10px 10px 40px;display:block;cursor:pointer;font-size:14px;    padding-left: 5px;}
+.ce > li > a:hover{background:#11a3e7;color:#fff;}
+.ce li .dqian{background:none}
+.ce li .xz{background:#11a3e7;color:#fff;}
+
+.er{display:none;width:168px;background:#eff5ff;}
+.er li{width:100%;}
+.er li a{display:block;padding:10px 10px 10px 20px;color:#747c89;background:none;}
+.er .e_li a{background:url(../images/more.png) no-repeat 120px center;}
+.er li a:hover,.er li .sen_x{background:#e1ebfd;}
+.er .e_li a:hover,.er .e_li .sen_x{background:#e1ebfd;}
+
+.Admin_Index .All_MenuBox{margin-left:60px;border-bottom:1px solid #abd3e3;}
+.Admin_Index .All_Menu{padding: 10px;padding-left: 5px;border-right:1px solid #abd3e3;width:170px;display:inline-block;}
+.Admin_Index .breadcrumb{display:inline-block;padding: 10px;margin:0;border-radius:0;margin-left:-4px;}
+.Admin_Index .breadcrumb li a{color:#337ab7}
+.Admin_Index .All_Menu i{margin-left:5px;}
+
+.Admin_Index .content {margin-left:230px;}
+.Admin_Index .content .SearchBox{padding-left:30px;padding-top:10px;}
+.Admin_Index .content .SearchBox .form-group {display:inline-block;width:40%;vertical-align:top;margin-right:10px;}
+.Admin_Index .content .SearchBox button {background-color:#11a3e7;}
+.Admin_Index .content .SearchBox button i {margin-right:5px;}
+.Admin_Index .content .table-responsive {width:95%;margin-left:5px;}
+.Admin_Index .content .table-responsive .table{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.Admin_Index .content .table-responsive .table th{border-bottom: 1px solid #ddd;}
+.Admin_Index .content .table-responsive .table th,.content .table-responsive .table tr {text-align:center;}
+.Admin_Index .content .table-responsive .table td{line-height: 2.428571;}
+.Admin_Index .content .table-responsive .table tr td{border-top:0;}
+.Admin_Index .content .table-responsive .table tbody tr{border-top: 1px solid #ddd;cursor:pointer;}
+.Admin_Index .content .table-responsive .table tbody tr:hover{border: 1px solid #abd3e3;background:#eff5ff;}
+.Admin_Index .content .table-responsive .table tbody .border_active{border: 1px solid #abd3e3;background:#eff5ff;}
+.Admin_Index .content .table-responsive .table th i{margin-left:3px;display:inline-block;vertical-align:baseline;}
+.Admin_Index .content .table-responsive .table tr td i{margin:0 3px;padding:5px 8px;border:1px solid #dedede;background-color:#fff;}
+.Admin_Index .content .paginationBox {margin-left:5px;width: 95%;}
+.Admin_Index .content .paginationBox .pagination{ vertical-align: middle;}
+.Admin_Index .content .paginationBox .NumBox {margin-left:10px;display:inline-block;}
+.Admin_Index .content .paginationBox .NumBox input[type=text] {width:30px;text-align:center;color:#337ab7;height:20px;}
+.Admin_Index .content .paginationBox .NumBox input[type=submit]{ padding:0px 6px;background-color: #337ab7;font-size:10px;}
+.Admin_Index .content .paginationBox .pull-right {display:inline-block;margin-top:26px;}
+
+.AuthBox header{position: fixed;width: 100%;top: 20px;left: 0px;z-index: 999;}
+.AuthBox header .nav{width: 80%; height: 45px;line-height: 45px;margin: 0 auto;color:#fff;}
+.AuthBox header .nav .CM_icon{background:url(../images/CM_icon.png) no-repeat;background-size: 45px;width: 45px;height: 45px;display:inline-block;vertical-align:top;}
+
+/*AuthBox linkone */
+.AuthBox header .nav .Auth span{color:#fff;}
+.AuthBox header .nav .Auth a:hover span {color:#11a3e7;}
+.AuthBox .link-1 {display: inline-block;margin-left:10px;position: relative;}
+.AuthBox .link-1 a.demo:before, .link-1 a.demo:after {content: '';border-bottom: solid 1px #11a3e7;position: absolute;bottom: 0;width: 0;}
+.AuthBox .link-1 a.demo:before { left: 0; }
+.AuthBox .link-1 a.demo:after { right: 0; }
+.AuthBox .link-1 a.demo:hover:before, .link-1 a.demo:hover:after {width: 50%;}
+.AuthBox .link-1 a.demo:before, .link-1 a.demo:after {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+/*AuthBox banner*/
+.AuthBox .banner{overflow:hidden;width:100%;position:relative;height:950px;}
+.AuthBox .banner .d1{width:100%;height:950px;display:block;position:absolute;left:0;top:0;overflow:hidden;}
+.AuthBox .banner .banner_img1{background: url(../images/234996-1402200R54210.jpg) no-repeat 50% 0;}
+.AuthBox .banner .banner_img2{background: url(../images/240468-140H00I32333.jpg) no-repeat 50% 0;}
+.AuthBox .banner .banner_img3{background: url(../images/240468-140H00I64325.jpg) no-repeat 50% 0;}
+.AuthBox .wrap{ text-align: center;
+    width: 600px;
+	height: 220px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;/*FF IE7*/
+	top: 50%;/*FF IE7*/
+	margin-left: -300px!important;/*FF IE7 该值为本身宽的一半 */
+	margin-top: -110px!important;/*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed!important;/*FF IE7*/
+	position: absolute;/*IE6*/
+ _top:       expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+.AuthBox .wrap .mid{width:100%;}
+.AuthBox .wrap .slogan {width: 600px;height: 150px;background: url(../images/1460615646788611.png) no-repeat 0 0;display: inline-block;background-size: 600px;}
+.AuthBox .wrap .mid .main-entry{width: 360px;height: 50px; margin: 15px auto 0;}
+.AuthBox .wrap .mid .main-entry a{display: block;position: relative; text-transform: uppercase;overflow: hidden;float: left;text-align: center; border-radius: 8px;font-size: 14px;letter-spacing: 1px; height: 50px; width: 170px;color: #ffffff;line-height: 50px;position: relative;}
+.AuthBox .wrap .mid .main-entry a:after {
+  content: '';
+  width: 0;
+  height: 0;
+  -webkit-transform: rotate(360deg);
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-style: solid;
+  border-width: 0 0 0 0;
+  border-color: #15709a transparent transparent transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.AuthBox .wrap .mid .main-entry a:hover:after {
+  border-width: 330px 330px 0 0;
+}
+.AuthBox .wrap .mid .main-entry a:active {
+  background: #15709a;
+}
+.AuthBox .wrap .mid .main-entry a .title {position: absolute;top: 0;left: 0;width: 100%; height: 100%; z-index: 2;padding-left: 18px;}
+.AuthBox .wrap .mid .main-entry s {background-color: #00a3ee;opacity: .9;display: block; border-radius: 8px;height: 100%; width: 100%;position: absolute;top: 0;}
+.AuthBox .main-entry a .title i { position: absolute; left: 13px;top: 13px;background:url(../images/personal-login.png) no-repeat 0 0; display: block; width: 24px; height: 24px;background-size: 24px;}
+.AuthBox .main-entry a .title .seller {background-image: url(../images/seller.png);left: 20px;}
+.AuthBox .mid .main-entry .personal-login { margin-left: 20px;}
+
+.Medi_classBox .Medi_class {position:relative;width: 95%;margin: 0 auto; text-align: center; margin-top: 100px;border: 1px solid #ddd; padding:30px 60px;}
+.Medi_classBox .Medi_class .title {position:absolute;top:-13px;left:30px;color: #00a3ee;padding:0 10px;font-size:16px;background-color:#fff;}
+.Medi_classBox .Medi_class .Button_Box {margin-bottom:20px;}
+.Medi_classBox .Medi_class .table input { width: 90%; height: 30px;background-color: #fff;border:1px solid #abd3e3;text-indent:10px;}
+.Medi_classBox .Medi_class .table td {     line-height: 2.428571;}
+
+.Auth_AdminBox .container_demo a.hiddenanchor{display: none;}
+.Auth_AdminBox .wrapper{
+    border: 1px solid transparent;
+	margin: 0px auto;	
+	width: 286px;
+    text-align: center;
+	height: 350px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;/*FF IE7*/
+	top: 50%;/*FF IE7*/
+	margin-left: -143px!important;/*FF IE7 该值为本身宽的一半 */
+	margin-top: -175px!important;/*FF IE7 该值为本身高的一半*/
+	margin-top: 0px;
+	position: fixed!important;/*FF IE7*/
+	position: absolute;/*IE6*/
+ _top:       expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+ document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+.Auth_AdminBox .wrapper h1{font-size: 18px;color: #999;padding: 26px 0 16px;font-weight: bold;text-align: center;}
+.Auth_AdminBox .wrapper .controls {text-align: left;position: relative;}
+.Auth_AdminBox .wrapper .controls label {
+  position: absolute;
+  left: 8px;
+  top: 9px;
+  color: #999;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0px 10px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0);
+  pointer-events: none;
+  -moz-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  -o-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  -webkit-transition: color 0.3s, top 0.3s, background-color 0.8s;
+  transition: color 0.3s, top 0.3s, background-color 0.8s;
+}
+.Auth_AdminBox .wrapper .controls label.active {top: -9px;color: #00a3ee;background:#fff;}
+.Auth_AdminBox .wrapper .controls input[type="text"],
+.Auth_AdminBox .wrapper .controls input[type="password"],
+.Auth_AdminBox .wrapper .controls input[type="tel"]
+ {
+  line-height: 40px;
+  height: 40px;
+  width:220px;
+  color: #595959;
+  text-indent:8px;
+  font-size: 12px;
+  border: 1px solid #c6c6c6;
+  margin-bottom: 18px;
+  color: #888;
+  background-color: #fff;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.Auth_AdminBox .wrapper .controls input[type="text"]:focus,
+.Auth_AdminBox .wrapper .controls input[type="password"]:focus,
+.Auth_AdminBox .wrapper .controls input[type="tel"]:focus
+{
+  outline: none;
+  border-color: #00a3ee;
+}
+.Auth_AdminBox .wrapper p.button a {
+    display: block;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 40px;
+    width: 220px;
+    color: #ffffff;
+    line-height: 40px;
+    padding:0;background-color: #00a3ee;border:0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.Auth_AdminBox .wrapper p.button a:hover {background: #15709a;}
+#wrapper p.change_link {margin-top:10px;}
+#wrapper p.change_link a {color: #00a3ee;}
+#wrapper p.change_link a:hover {
+    text-decoration:underline;
+}
+#register, 
+#login{
+	position: absolute;
+	top: 0px;
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background:#fff;
+	border: 1px solid rgba(147, 184, 189,0.8);
+
+}
+#register{	
+	z-index: 21;
+	opacity: 0;
+}
+#login{
+	z-index: 22;
+}
+#toregister:target ~ #wrapper #register,
+#tologin:target ~ #wrapper #login{
+	z-index: 22;
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-ms-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+	-webkit-animation-delay: .1s;
+	-moz-animation-delay: .1s;
+	-o-animation-delay: .1s;
+	-ms-animation-delay: .1s;
+	animation-delay: .1s;
+}
+#toregister:target ~ #wrapper #login,
+#tologin:target ~ #wrapper #register{
+	-webkit-animation-name: fadeOutLeft;
+	-moz-animation-name: fadeOutLeft;
+	-ms-animation-name: fadeOutLeft;
+	-o-animation-name: fadeOutLeft;
+	animation-name: fadeOutLeft;
+}
+
+
+.animate{
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	
+	-moz-animation-duration: 0.5s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	
+	-o-animation-duration: 0.5s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
+	
+	-ms-animation-duration: 0.5s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}

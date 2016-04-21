@@ -1,0 +1,127 @@
+[{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+    "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+},{
+	"_id": "",
+	"category": [{
+				"_id" : "",
+				"category_name" : "分类名称",
+			}],
+	"code" : "药品编号",
+	"name" : "药品名称",
+        "alias": 别名,
+	"production_place" : "产地",
+	"manufacturer" : "厂商",
+	"unit" : "计量单位[g/kg/粒...]",
+	"buy_in_price" : "进价",
+	"sell_out_price" : "售价"
+}]
